@@ -1,0 +1,151 @@
+draw_config:
+  separate_combo_diagrams: true
+  glyph_tap_size: 18
+  glyph_hold_size: 15
+  glyph_shifted_size: 15
+  glyphs: {}
+  glyph_urls:
+    mdi: https://raw.githubusercontent.com/Templarian/MaterialDesign-SVG/master/svg/{}.svg
+  use_local_cache: true
+parse_config:
+  preprocess: true
+  skip_binding_parsing: false
+  sticky_label: sticky
+  toggle_label: $$mdi:toggle-switch$$
+  trans_legend:
+    t: ▽
+    type: trans
+  zmk_keycode_map:
+    DE_SZ: "ß"
+    DE_A_UMLAUT: "Ä"
+    DE_O_UMLAUT: "Ö"
+    DE_U_UMLAUT: "Ü"
+    DE_COMMA: ","
+    COMMA: ","
+    DE_DOT: "."
+    DOT: "."
+    DE_MINUS: "-"
+    KP_MINUS: "-"
+    DE_HASH: "#"
+    DE_CARET: "ˆ"
+    DE_GT: ">"
+    DE_LT: "<"
+    DE_PERCENT: "%"
+    DE_PRCNT: "%"
+    DE_QUESTION: "?"
+    DE_PLUS: "+"
+    KP_PLUS: "+"
+    DE_LPAR: "("
+    DE_RPAR: ")"
+    DE_EQUAL: "="
+    KP_EQUAL: "="
+    DE_ASTRK: "*"
+    KP_MULTIPLY: "*"
+    DE_COLON: ":"
+    DE_EXCL: "!"
+    DE_SEMI: ";"
+    DE_UNDER: "_"
+    DE_TILDE: "~"
+    DE_LBKT: "["
+    DE_RBKT: "]"
+    DE_LBRC: "{"
+    DE_RBRC: "}"
+    DE_DLLR: "$"
+    DE_BSLH: '\'
+    DE_PIPE: "|"
+    DE_SLASH: "/"
+    DE_GRAVE: "`"
+    DE_AMPS: "&"
+    DE_DQT: '"'
+    DE_AT: "@"
+    DE_SQT: "'"
+    UP: $$mdi:arrow-up$$
+    DOWN: $$mdi:arrow-down$$
+    LEFT: $$mdi:arrow-left$$
+    RIGHT: $$mdi:arrow-right$$
+    HOME: ⇤
+    END: ⇥
+    PG_UP: ⤉
+    PG_DN: ⤈
+    RETURN: ⮐
+    ENTER: ⮐
+    C_PLAY_PAUSE: $$mdi:play-pause$$
+    C_NEXT: $$mdi:skip-forward$$
+    C_PREV: $$mdi:skip-backward$$
+    C_STOP: $$mdi:stop$$
+    C_MUTE: $$mdi:volume-mute$$
+    C_VOL_UP: $$mdi:volume-plus$$
+    C_VOL_DN: $$mdi:volume-minus$$
+    C_BRI_UP: $$tabler:brightness-up$$
+    C_BRI_DN: $$tabler:brightness-down$$
+    C_POWER: $$mdi:power$$
+    C_SLEEP: $$mdi:power-sleep$$
+    GLOBE: $$tabler:world$$
+    SPACE: $$mdi:keyboard-space$$
+    BACKSPACE: $$mdi:backspace-outline$$
+    DELETE: $$mdi:backspace-reverse-outline$$
+    DEL: $$mdi:backspace-reverse-outline$$
+  raw_binding_map:
+    "&out OUT_TOG":
+      tap: $$mdi:toggle-switch$$
+      hold: $$mdi:bluetooth$$
+      shifted: $$mdi:usb$$
+      type: toggle
+    "&bt BT_CLR":
+      tap: $$mdi:bluetooth-settings$$
+      shifted: $$mdi:close-thick$$
+      type: sym_sub_text
+    "&bt BT_CLR_ALL":
+      tap: $$mdi:bluetooth-settings$$
+      shifted: $$mdi:close-thick$$
+      hold: $$mdi:asterisk$$
+      type: sym_sub_text
+    "&bt BT_SEL 0":
+      tap: $$mdi:bluetooth-connect$$
+      shifted: "0"
+      type: sym_sub_text
+    "&bt BT_SEL 1":
+      tap: $$mdi:bluetooth-connect$$
+      shifted: "1"
+      type: sym_sub_text
+    "&bt BT_SEL 2":
+      tap: $$mdi:bluetooth-connect$$
+      shifted: "2"
+      type: sym_sub_text
+    "&bt BT_SEL 3":
+      tap: $$mdi:bluetooth-connect$$
+      shifted: "3"
+      type: sym_sub_text
+    "&bt BT_SEL 4":
+      tap: $$mdi:bluetooth-connect$$
+      shifted: "4"
+      type: sym_sub_text
+    "&bt BT_PRV":
+      tap: $$mdi:bluetooth$$
+      shifted: $$mdi:skip-previous$$
+      type: sym_sub_text
+    "&bt BT_NXT":
+      tap: $$mdi:bluetooth$$
+      shifted: $$mdi:skip-next$$
+      type: sym_sub_text
+    "&mkp LCLK": "$$mdi:mouse-left-click"
+    "&mkp RCLK": "$$mdi:mouse-right-click"
+    "&mkp MCLK": "$$mdi:mouse-scroll-wheel"
+    "&msc SCRL_UP": "$$mdi:mouse-move-up$$"
+    "&msc SCRL_DOWN": "$$mdi:mouse-move-down$$"
+    "&mmv MOVE_LEFT":
+      tap: $$mdi:tortoise$$
+      shifted: $$mdi:arrow-left$$
+      type: sym_by_sym
+    "&mmv MOVE_RIGHT":
+      tap: $$mdi:tortoise$$
+      shifted: $$mdi:arrow-right$$
+      type: sym_by_sym
+    "&mmv MOVE_UP":
+      tap: $$mdi:tortoise$$
+      shifted: $$mdi:arrow-up$$
+      type: sym_by_sym
+    "&mmv MOVE_DOWN":
+      tap: $$mdi:tortoise$$
+      shifted: $$mdi:arrow-down$$
+      type: sym_by_sym

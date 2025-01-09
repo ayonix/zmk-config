@@ -1,0 +1,631 @@
+layers:
+  base:
+  - ˆ
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - X
+  - M
+  - L
+  - C
+  - P
+  - Q
+  - F
+  - O
+  - U
+  - Ä
+  - $$mdi:backspace-outline$$
+  - ß
+  - {t: R, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: N, h: LCTRL}
+  - {t: T, h: LSHIFT}
+  - G
+  - B
+  - {t: H, h: RSHIFT}
+  - {t: E, h: LCTRL}
+  - {t: I, h: LALT}
+  - {t: A, h: LGUI}
+  - ','
+  - {t: LSHFT, h: sticky}
+  - {t: DE Z, h: button}
+  - {t: V, h: RALT}
+  - W
+  - D
+  - J
+  - DE Y
+  - K
+  - Ö
+  - {t: Ü, h: RALT}
+  - .
+  - /
+  - ''
+  - {t: LSHIFT, h: sticky}
+  - {t: ESC, h: media}
+  - {t: '$$mdi:keyboard-space$$', h: nav}
+  - {t: TAB, h: mouse}
+  - {t: LSHFT, h: symbol}
+  - {t: BSPC, h: number, s: '$$mdi:backspace-reverse-outline$$'}
+  - {t: ⮐, h: fun}
+  extra:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '#'
+  - LSHFT
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHIFT}
+  - G
+  - H
+  - {t: J, h: RSHIFT}
+  - {t: K, h: LCTRL}
+  - {t: L, h: LALT}
+  - {t: Ö, h: LGUI}
+  - Ä
+  - LCTRL
+  - {t: DE Z, h: button}
+  - {t: X, h: RALT}
+  - C
+  - V
+  - B
+  - M
+  - N
+  - ','
+  - {t: ., h: RALT}
+  - '-'
+  - ''
+  - ''
+  - {t: LSHIFT, h: sticky}
+  - {t: ESC, h: media}
+  - {t: '$$mdi:keyboard-space$$', h: nav}
+  - {t: TAB, h: mouse}
+  - {t: LSHFT, h: symbol}
+  - {t: BSPC, h: number, s: '$$mdi:backspace-reverse-outline$$'}
+  - {t: ⮐, h: fun}
+  game:
+  - '5'
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - T
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '#'
+  - G
+  - LSHFT
+  - A
+  - S
+  - D
+  - F
+  - H
+  - J
+  - K
+  - L
+  - Ö
+  - Ä
+  - B
+  - LCTRL
+  - DE Z
+  - X
+  - C
+  - V
+  - M
+  - N
+  - ','
+  - .
+  - '-'
+  - ''
+  - ''
+  - ''
+  - LEFT ALT
+  - $$mdi:keyboard-space$$
+  - fun
+  - {t: LSHFT, h: symbol}
+  - {t: BSPC, h: number, s: '$$mdi:backspace-reverse-outline$$'}
+  - {t: ⮐, h: fun}
+  nav:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: game, h: '$$mdi:toggle-switch$$'}
+  - {t: extra, h: '$$mdi:toggle-switch$$'}
+  - {t: base, h: '$$mdi:toggle-switch$$'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: LSHIFT, h: sticky}
+  - ''
+  - '&caps_word'
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-up$$
+  - $$mdi:arrow-right$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ⇤
+  - ⤈
+  - ⤉
+  - ⇥
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - LSHFT
+  - $$mdi:backspace-outline$$
+  - ⮐
+  mouse:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: game, h: '$$mdi:toggle-switch$$'}
+  - {t: extra, h: '$$mdi:toggle-switch$$'}
+  - {t: base, h: '$$mdi:toggle-switch$$'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: LSHIFT, h: sticky}
+  - ''
+  - ''
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-left$$', type: sym_by_sym}
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-down$$', type: sym_by_sym}
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-up$$', type: sym_by_sym}
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-right$$', type: sym_by_sym}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&msc SCRL_LEFT'
+  - $$mdi:mouse-move-down$$
+  - $$mdi:mouse-move-up$$
+  - '&msc SCRL_RIGHT'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - $$mdi:mouse-right-click
+  - $$mdi:mouse-left-click
+  - $$mdi:mouse-scroll-wheel
+  media:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '$$mdi:bluetooth-settings$$', s: '$$mdi:close-thick$$', type: sym_sub_text}
+  - ''
+  - ''
+  - {t: game, h: '$$mdi:toggle-switch$$'}
+  - {t: extra, h: '$$mdi:toggle-switch$$'}
+  - {t: base, h: '$$mdi:toggle-switch$$'}
+  - ''
+  - ''
+  - {t: '$$mdi:bluetooth$$', s: '$$mdi:skip-previous$$', type: sym_sub_text}
+  - ''
+  - ''
+  - {t: '$$mdi:bluetooth$$', s: '$$mdi:skip-next$$', type: sym_sub_text}
+  - ''
+  - ''
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: LSHIFT, h: sticky}
+  - ''
+  - ''
+  - $$mdi:skip-backward$$
+  - $$mdi:volume-minus$$
+  - $$mdi:volume-plus$$
+  - $$mdi:skip-forward$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$', type: toggle}
+  - {t: '$$mdi:bluetooth-connect$$', s: '0', type: sym_sub_text}
+  - {t: '$$mdi:bluetooth-connect$$', s: '1', type: sym_sub_text}
+  - {t: '$$mdi:bluetooth-connect$$', s: '2', type: sym_sub_text}
+  - {t: '$$mdi:bluetooth-connect$$', s: '3', type: sym_sub_text}
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - $$mdi:stop$$
+  - $$mdi:play-pause$$
+  - $$mdi:volume-mute$$
+  number:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - /
+  - '7'
+  - '8'
+  - '9'
+  - '*'
+  - ''
+  - {t: base, h: '$$mdi:toggle-switch$$'}
+  - {t: extra, h: '$$mdi:toggle-switch$$'}
+  - {t: game, h: '$$mdi:toggle-switch$$'}
+  - ''
+  - ''
+  - ''
+  - ;
+  - '4'
+  - '5'
+  - '6'
+  - '='
+  - ''
+  - {t: LSHIFT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - ''
+  - ''
+  - '%'
+  - '1'
+  - '2'
+  - '3'
+  - +
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - .
+  - '0'
+  - '-'
+  - ''
+  - {type: held}
+  - ''
+  fun:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F12
+  - F7
+  - F8
+  - F9
+  - PSCRN
+  - ''
+  - {t: base, h: '$$mdi:toggle-switch$$'}
+  - {t: extra, h: '$$mdi:toggle-switch$$'}
+  - {t: game, h: '$$mdi:toggle-switch$$'}
+  - ''
+  - ''
+  - ''
+  - F11
+  - F4
+  - F5
+  - F6
+  - ''
+  - ''
+  - {t: LSHIFT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - ''
+  - ''
+  - F10
+  - F1
+  - F2
+  - F3
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  symbol:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ˆ
+  - '>'
+  - '%'
+  - <
+  - '?'
+  - '~'
+  - '['
+  - $
+  - ']'
+  - \
+  - ''
+  - ''
+  - +
+  - )
+  - '='
+  - (
+  - '#'
+  - '@'
+  - '{'
+  - '"'
+  - '}'
+  - '|'
+  - ''
+  - ''
+  - '-'
+  - '*'
+  - ':'
+  - +
+  - '!'
+  - ''''
+  - '&'
+  - '`'
+  - .
+  - /
+  - ''
+  - ''
+  - ''
+  - ;
+  - $$mdi:keyboard-space$$
+  - _
+  - {type: held}
+  - ''
+  - ''
+  button:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:mouse-left-click
+  - $$mdi:mouse-scroll-wheel
+  - $$mdi:mouse-right-click
+  - snipe
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:mouse-left-click
+  - $$mdi:mouse-scroll-wheel
+  - $$mdi:mouse-right-click
+  - snipe
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  snipe:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [19, 22]
+  k: '&bootloader'
