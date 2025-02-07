@@ -1,0 +1,29 @@
+#define COMBO(NAME, BINDINGS, KEYPOS, MS) \
+  combo_##NAME { \
+    bindings = <BINDINGS>; \
+    key-positions = <KEYPOS>; \
+    timeout-ms = <MS>; \
+  };
+
+#define COMBO_TERM_FAST 14
+#define COMBO_TERM_NORMAL 20
+#define COMBO_TERM_SLOW 45
+
+#define COMBO_TIMEOUT 50
+
+combos {
+  compatible = "zmk,combos";
+
+  COMBO(bootloader, &bootloader, 19 22, COMBO_TERM_SLOW)
+
+  COMBO(lbkt, &kp DE_LBKT, 1 13, COMBO_TERM_NORMAL)
+  COMBO(lpar, &kp DE_LPAR, 2 14, COMBO_TERM_NORMAL)
+  COMBO(lbrc, &kp DE_LBRC, 3 15, COMBO_TERM_NORMAL)
+  COMBO(labk, &kp DE_LESS_THAN, 4 16, COMBO_TERM_NORMAL)
+  COMBO(rabk, &kp DE_GREATER_THAN, 5 17, COMBO_TERM_NORMAL)
+  COMBO(rbrc, &kp DE_RBRC, 6 18, COMBO_TERM_NORMAL)
+  COMBO(rpar, &kp DE_RPAR, 7 19, COMBO_TERM_NORMAL)
+  COMBO(rbkt, &kp DE_RBKT, 8 20, COMBO_TERM_NORMAL)
+
+  COMBO(del, &kp DEL, 43 44, COMBO_TERM_NORMAL)
+};
