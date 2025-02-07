@@ -23,7 +23,7 @@ layers:
   - O
   - U
   - Ä
-  - $$mdi:backspace-outline$$
+  - ''''
   - ß
   - {t: R, h: LGUI}
   - {t: S, h: LALT}
@@ -54,7 +54,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: nav}
   - {t: TAB, h: mouse}
   - {t: LSHFT, h: symbol}
-  - {t: BSPC, h: number, s: '$$mdi:backspace-reverse-outline$$'}
+  - {t: BSPC, h: number}
   - {t: ⮐, h: fun}
   extra:
   - ESC
@@ -68,14 +68,14 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ''
+  - ß
   - TAB
   - Q
   - W
   - E
   - R
   - T
-  - Y
+  - DE Z
   - U
   - I
   - O
@@ -94,7 +94,7 @@ layers:
   - {t: Ö, h: LGUI}
   - Ä
   - LCTRL
-  - {t: DE Z, h: button}
+  - {t: DE Y, h: button}
   - {t: X, h: RALT}
   - C
   - V
@@ -111,7 +111,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: nav}
   - {t: TAB, h: mouse}
   - {t: LSHFT, h: symbol}
-  - {t: BSPC, h: number, s: '$$mdi:backspace-reverse-outline$$'}
+  - {t: BSPC, h: number}
   - {t: ⮐, h: fun}
   game:
   - '5'
@@ -125,14 +125,14 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ''
+  - ß
   - T
   - TAB
   - Q
   - W
   - E
   - R
-  - Y
+  - DE Z
   - U
   - I
   - O
@@ -152,7 +152,7 @@ layers:
   - Ä
   - B
   - LCTRL
-  - DE Z
+  - DE Y
   - X
   - C
   - V
@@ -199,7 +199,7 @@ layers:
   - {t: LGUI, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LCTRL, h: sticky}
-  - {t: LSHIFT, h: sticky}
+  - {t: LSHFT, h: sticky}
   - ''
   - '&caps_word'
   - $$mdi:arrow-left$$
@@ -256,7 +256,7 @@ layers:
   - {t: LGUI, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LCTRL, h: sticky}
-  - {t: LSHIFT, h: sticky}
+  - {t: LSHFT, h: sticky}
   - ''
   - ''
   - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-left$$', type: sym_by_sym}
@@ -313,7 +313,7 @@ layers:
   - {t: LGUI, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LCTRL, h: sticky}
-  - {t: LSHIFT, h: sticky}
+  - {t: LSHFT, h: sticky}
   - ''
   - ''
   - $$mdi:skip-backward$$
@@ -373,7 +373,7 @@ layers:
   - '6'
   - '='
   - ''
-  - {t: LSHIFT, h: sticky}
+  - {t: LSHFT, h: sticky}
   - {t: LCTRL, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LGUI, h: sticky}
@@ -430,7 +430,7 @@ layers:
   - F6
   - ''
   - ''
-  - {t: LSHIFT, h: sticky}
+  - {t: LSHFT, h: sticky}
   - {t: LCTRL, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LGUI, h: sticky}
@@ -629,3 +629,21 @@ layers:
 combos:
 - p: [19, 22]
   k: '&bootloader'
+- p: [1, 13]
+  k: '['
+- p: [2, 14]
+  k: (
+- p: [3, 15]
+  k: '{'
+- p: [4, 16]
+  k: DE LESS THAN
+- p: [5, 17]
+  k: DE GREATER THAN
+- p: [6, 18]
+  k: '}'
+- p: [7, 19]
+  k: )
+- p: [8, 20]
+  k: ']'
+- p: [43, 44]
+  k: $$mdi:backspace-reverse-outline$$
