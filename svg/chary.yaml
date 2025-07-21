@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: chary}
 layers:
   base:
   - ˆ
@@ -48,7 +49,7 @@ layers:
   - {t: Ü, h: RALT}
   - .
   - /
-  - ''
+  - F23
   - {t: LSHIFT, h: sticky}
   - {t: ESC, h: media}
   - {t: '$$mdi:keyboard-space$$', h: nav}
@@ -104,8 +105,8 @@ layers:
   - ','
   - {t: ., h: RALT}
   - '-'
-  - ''
-  - ''
+  - /
+  - F23
   - {t: LSHIFT, h: sticky}
   - {t: ESC, h: media}
   - {t: '$$mdi:keyboard-space$$', h: nav}
@@ -114,7 +115,7 @@ layers:
   - {t: BSPC, h: number}
   - {t: ⮐, h: fun}
   game:
-  - '5'
+  - F4
   - ESC
   - '1'
   - '2'
@@ -126,7 +127,7 @@ layers:
   - '9'
   - '0'
   - ß
-  - T
+  - F3
   - TAB
   - Q
   - W
@@ -138,19 +139,19 @@ layers:
   - O
   - P
   - '#'
-  - G
+  - F2
   - LSHFT
   - A
   - S
   - D
   - F
   - H
-  - J
-  - K
-  - L
-  - Ö
+  - {t: J, h: RSHIFT}
+  - {t: K, h: LCTRL}
+  - {t: L, h: LALT}
+  - {t: Ö, h: LGUI}
   - Ä
-  - B
+  - F1
   - LCTRL
   - DE Y
   - X
@@ -159,14 +160,14 @@ layers:
   - M
   - N
   - ','
-  - .
+  - {t: ., h: RALT}
   - '-'
-  - ''
-  - ''
-  - ''
+  - /
+  - F23
+  - number
   - LEFT ALT
   - $$mdi:keyboard-space$$
-  - fun
+  - game2
   - {t: LSHFT, h: symbol}
   - {t: BSPC, h: number, s: '$$mdi:backspace-reverse-outline$$'}
   - {t: ⮐, h: fun}
@@ -228,7 +229,7 @@ layers:
   - $$mdi:backspace-outline$$
   - ⮐
   mouse:
-  - ''
+  - F24
   - ''
   - ''
   - ''
@@ -399,6 +400,7 @@ layers:
   - {type: held}
   - ''
   fun:
+  - F24
   - ''
   - ''
   - ''
@@ -410,8 +412,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - F15
   - F12
   - F7
   - F8
@@ -423,7 +424,7 @@ layers:
   - {t: game, h: '$$mdi:toggle-switch$$'}
   - ''
   - ''
-  - ''
+  - F14
   - F11
   - F4
   - F5
@@ -435,7 +436,7 @@ layers:
   - {t: LALT, h: sticky}
   - {t: LGUI, h: sticky}
   - ''
-  - ''
+  - F13
   - F10
   - F1
   - F2
@@ -626,6 +627,63 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  game2:
+  - F24
+  - F13
+  - F14
+  - F15
+  - F16
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ß
+  - F19
+  - F12
+  - F7
+  - F8
+  - F9
+  - T
+  - DE Z
+  - U
+  - I
+  - O
+  - P
+  - '#'
+  - F18
+  - F11
+  - F4
+  - F5
+  - F6
+  - G
+  - H
+  - J
+  - K
+  - L
+  - Ö
+  - Ä
+  - F17
+  - F10
+  - F1
+  - F2
+  - F3
+  - B
+  - M
+  - N
+  - ','
+  - .
+  - '-'
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: LSHFT, h: symbol}
+  - {t: BSPC, h: number, s: '$$mdi:backspace-reverse-outline$$'}
+  - {t: ⮐, h: fun}
 combos:
 - p: [19, 22]
   k: '&bootloader'
