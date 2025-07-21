@@ -17,6 +17,7 @@
 #define SYMBOL  8
 #define BUTTON  9
 #define SNIPE   10
+#define GAME2   11
 
 #define TAPPING_TERM 200
 #define TAPPING_TERM_QUICK 150
@@ -28,6 +29,10 @@
 #define RIGHT_POS 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 42 43 44 45 46 47
 
 #include <dt-bindings/zmk/pointing.h>
+
+&caps_word {
+    continue-list = <SLASH LSHFT RSHFT>;
+};
 
 / {
     behaviors {
@@ -127,29 +132,29 @@
                 &none           &kp X            &kp M           &kp L           &kp C             &kp P       &kp Q     &kp F             &kp O            &kp U                   &kp DE_A_UMLAUT  &kp DE_SQT
                 &kp DE_SZ       &hrml LGUI R     &hrml LALT S    &hrml LCTRL N   &hrml_s LSHIFT T  &kp G       &kp B     &hrmr_s RSHIFT H  &hrmr LCTRL E    &hrmr LALT I            &hrmr LGUI A     &kp COMMA
                 &skq LSHFT      &lt BUTTON DE_Z  &hrml RALT V    &kp W           &kp D             &kp J       &kp DE_Y  &kp K             &kp DE_O_UMLAUT  &hrmr RALT DE_U_UMLAUT  &kp DOT          &kp DE_SLASH
-                    &none           &skq LSHIFT  &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB                                      &skq_mo SYMBOL LSHFT  &lt NUMBER BSPC  &lt FUN ENTER
+                    &kp F23     &skq LSHIFT  &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB                                      &skq_mo SYMBOL LSHFT  &lt NUMBER BSPC  &lt FUN ENTER
             >;
         };
 
         extra_layer {
             display-name = "extra";
             bindings = <
-                &kp ESC   &kp N1            &kp N2        &kp N3         &kp N4             &kp N5    &kp N6  &kp N7            &kp N8          &kp N9             &kp N0                 &kp DE_SZ
-                &kp TAB   &kp Q             &kp W         &kp E          &kp R              &kp T     &kp DE_Z   &kp U             &kp I           &kp O              &kp P                  &kp DE_HASH
-                &kp LSHFT &hrml LGUI A      &hrml LALT S  &hrml LCTRL D  &hrml_s LSHIFT F   &kp G     &kp H   &hrmr_s RSHIFT J  &hrmr LCTRL K   &hrmr LALT L       &hrmr LGUI DE_O_UMLAUT &kp DE_A_UMLAUT
-                &kp LCTRL &lt BUTTON DE_Y   &hrml RALT X  &kp C          &kp V              &kp B     &kp M   &kp N             &kp DE_COMMA    &hrmr RALT DE_DOT  &kp DE_MINUS           &none
-                    &none           &skq LSHIFT  &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB                                      &skq_mo SYMBOL LSHFT  &lt NUMBER BSPC  &lt FUN ENTER
+                &kp ESC   &kp N1            &kp N2        &kp N3         &kp N4             &kp N5    &kp N6   &kp N7            &kp N8          &kp N9             &kp N0                 &kp DE_SZ
+                &kp TAB   &kp Q             &kp W         &kp E          &kp R              &kp T     &kp DE_Z &kp U             &kp I           &kp O              &kp P                  &kp DE_HASH
+                &kp LSHFT &hrml LGUI A      &hrml LALT S  &hrml LCTRL D  &hrml_s LSHIFT F   &kp G     &kp H    &hrmr_s RSHIFT J  &hrmr LCTRL K   &hrmr LALT L       &hrmr LGUI DE_O_UMLAUT &kp DE_A_UMLAUT
+                &kp LCTRL &lt BUTTON DE_Y   &hrml RALT X  &kp C          &kp V              &kp B     &kp M    &kp N             &kp DE_COMMA    &hrmr RALT DE_DOT  &kp DE_MINUS           &kp DE_SLASH
+                    &kp F23      &skq LSHIFT  &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB                                      &skq_mo SYMBOL LSHFT  &lt NUMBER BSPC  &lt FUN ENTER
             >;
         };
 
         game_layer {
             display-name = "game";
             bindings = <
-                &kp N5  &kp ESC   &kp N1    &kp N2   &kp N3  &kp N4     &kp N6    &kp N7     &kp N8       &kp N9     &kp N0          &kp DE_SZ
-                &kp T   &kp TAB   &kp Q     &kp W    &kp E   &kp R      &kp DE_Z  &kp U      &kp I        &kp O      &kp P           &kp DE_HASH
-                &kp G   &kp LSHFT &kp A     &kp S    &kp D   &kp F      &kp H     &kp J      &kp K        &kp L      &kp DE_O_UMLAUT &kp DE_A_UMLAUT
-                &kp B   &kp LCTRL &kp DE_Y  &kp X    &kp C   &kp V      &kp M     &kp N      &kp DE_COMMA &kp DE_DOT &kp DE_MINUS    &none
-                &none  &none &kp LEFT_ALT &kp SPACE &mo FUN               &skq_mo SYMBOL LSHFT  &lt_bspc NUMBER 0  &lt FUN ENTER
+                &kp F4   &kp ESC   &kp N1    &kp N2   &kp N3  &kp N4     &kp N6    &kp N7            &kp N8         &kp N9             &kp N0                   &kp DE_SZ
+                &kp F3   &kp TAB   &kp Q     &kp W    &kp E   &kp R      &kp DE_Z  &kp U             &kp I          &kp O              &kp P                    &kp DE_HASH
+                &kp F2   &kp LSHFT &kp A     &kp S    &kp D   &kp F      &kp H     &hrmr_s RSHIFT J  &hrmr LCTRL K  &hrmr LALT L       &hrmr LGUI DE_O_UMLAUT   &kp DE_A_UMLAUT
+                &kp F1   &kp LCTRL &kp DE_Y  &kp X    &kp C   &kp V      &kp M     &kp N             &kp DE_COMMA   &hrmr RALT DE_DOT  &kp DE_MINUS             &kp DE_SLASH
+                &kp F23  &mo NUMBER &kp LEFT_ALT &kp SPACE &mo GAME2               &skq_mo SYMBOL LSHFT  &lt_bspc NUMBER 0  &lt FUN ENTER
             >;
         };
 
@@ -167,7 +172,7 @@
         mouse_layer {
             display-name = "mouse";
             bindings = <
-                &none    &none      &none      &none       &none        &none       &none   &none           &none           &none         &none             &none
+                &kp F24  &none      &none      &none       &none        &none       &none   &none           &none           &none         &none             &none
                 &none    &none      &to GAME   &to EXTRA   &to BASE     &none       &none   &none           &none           &none         &none             &none
                 &none    &sk LGUI   &sk LALT   &sk LCTRL   &skq LSHFT   &none       &none   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT   &none
                 &none    &none      &none      &none       &none        &none       &none   &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT   &none
@@ -200,10 +205,10 @@
         fun_layer {
             display-name = "fun";
             bindings = <
-                &none    &none      &none      &none       &none    &none       &none   &none       &none       &none       &none       &none
-                &none    &kp F12    &kp F7     &kp F8      &kp F9   &kp PSCRN   &none   &to BASE    &to EXTRA   &to GAME    &none       &none
-                &none    &kp F11    &kp F4     &kp F5      &kp F6   &none       &none   &skq LSHFT  &sk LCTRL   &sk LALT    &sk LGUI    &none
-                &none    &kp F10    &kp F1     &kp F2      &kp F3   &none       &none   &none       &none       &none       &none       &none
+                &kp F24  &none      &none      &none       &none    &none       &none   &none       &none       &none       &none       &none
+                &kp F15  &kp F12    &kp F7     &kp F8      &kp F9   &kp PSCRN   &none   &to BASE    &to EXTRA   &to GAME    &none       &none
+                &kp F14  &kp F11    &kp F4     &kp F5      &kp F6   &none       &none   &skq LSHFT  &sk LCTRL   &sk LALT    &sk LGUI    &none
+                &kp F13  &kp F10    &kp F1     &kp F2      &kp F3   &none       &none   &none       &none       &none       &none       &none
                 &none    &none      &none      &none     &none                      &none    &none   &none
             >;
         };
@@ -238,6 +243,17 @@
                 &trans  &trans  &trans      &trans      &trans      &trans   &trans  &trans      &trans      &trans      &trans  &trans
                 &trans  &trans  &trans      &trans      &trans      &trans   &trans  &trans      &trans      &trans      &trans  &trans
                 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans
+            >;
+        };
+
+        game2_layer {
+            display-name = "game2";
+            bindings = <
+                &kp F24  &kp F13  &kp F14   &kp F15  &kp F16 &kp N5     &kp N6    &kp N7     &kp N8       &kp N9     &kp N0          &kp DE_SZ
+                &kp F19  &kp F12  &kp F7    &kp F8   &kp F9  &kp T      &kp DE_Z  &kp U      &kp I        &kp O      &kp P           &kp DE_HASH
+                &kp F18  &kp F11  &kp F4    &kp F5   &kp F6  &kp G      &kp H     &kp J      &kp K        &kp L      &kp DE_O_UMLAUT &kp DE_A_UMLAUT
+                &kp F17  &kp F10  &kp F1    &kp F2   &kp F3  &kp B      &kp M     &kp N      &kp DE_COMMA &kp DE_DOT &kp DE_MINUS    &kp DE_SLASH
+                &trans  &trans  &trans  &trans  &trans                      &skq_mo SYMBOL LSHFT  &lt_bspc NUMBER 0  &lt FUN ENTER
             >;
         };
     };
