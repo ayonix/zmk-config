@@ -241,7 +241,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - F23
   - ''
   - {t: game, h: '$$mdi:toggle-switch$$'}
   - {t: extra, h: '$$mdi:toggle-switch$$'}
@@ -253,7 +253,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - F22
   - {t: LGUI, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LCTRL, h: sticky}
@@ -265,7 +265,7 @@ layers:
   - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-up$$', type: sym_by_sym}
   - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-right$$', type: sym_by_sym}
   - ''
-  - ''
+  - F21
   - ''
   - ''
   - ''
@@ -412,7 +412,7 @@ layers:
   - ''
   - ''
   - ''
-  - F15
+  - F23
   - F12
   - F7
   - F8
@@ -424,7 +424,7 @@ layers:
   - {t: game, h: '$$mdi:toggle-switch$$'}
   - ''
   - ''
-  - F14
+  - F22
   - F11
   - F4
   - F5
@@ -436,7 +436,7 @@ layers:
   - {t: LALT, h: sticky}
   - {t: LGUI, h: sticky}
   - ''
-  - F13
+  - F21
   - F10
   - F1
   - F2
@@ -640,7 +640,7 @@ layers:
   - '9'
   - '0'
   - ß
-  - F19
+  - F23
   - F12
   - F7
   - F8
@@ -652,7 +652,7 @@ layers:
   - O
   - P
   - '#'
-  - F18
+  - F22
   - F11
   - F4
   - F5
@@ -664,7 +664,7 @@ layers:
   - L
   - Ö
   - Ä
-  - F17
+  - F21
   - F10
   - F1
   - F2
