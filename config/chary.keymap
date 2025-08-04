@@ -173,9 +173,9 @@
             display-name = "mouse";
             bindings = <
                 &kp F24  &none      &none      &none       &none        &none       &none   &none           &none           &none         &none             &none
-                &none    &none      &to GAME   &to EXTRA   &to BASE     &none       &none   &none           &none           &none         &none             &none
-                &none    &sk LGUI   &sk LALT   &sk LCTRL   &skq LSHFT   &none       &none   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT   &none
-                &none    &none      &none      &none       &none        &none       &none   &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT   &none
+                &kp F23    &none      &to GAME   &to EXTRA   &to BASE     &none       &none   &none           &none           &none         &none             &none
+                &kp F22    &sk LGUI   &sk LALT   &sk LCTRL   &skq LSHFT   &none       &none   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT   &none
+                &kp F21    &none      &none      &none       &none        &none       &none   &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT   &none
                 &none    &none      &none      &none     &none                      &mkp RCLK    &mkp LCLK   &mkp MCLK
             >;
         };
@@ -206,9 +206,9 @@
             display-name = "fun";
             bindings = <
                 &kp F24  &none      &none      &none       &none    &none       &none   &none       &none       &none       &none       &none
-                &kp F15  &kp F12    &kp F7     &kp F8      &kp F9   &kp PSCRN   &none   &to BASE    &to EXTRA   &to GAME    &none       &none
-                &kp F14  &kp F11    &kp F4     &kp F5      &kp F6   &none       &none   &skq LSHFT  &sk LCTRL   &sk LALT    &sk LGUI    &none
-                &kp F13  &kp F10    &kp F1     &kp F2      &kp F3   &none       &none   &none       &none       &none       &none       &none
+                &kp F23  &kp F12    &kp F7     &kp F8      &kp F9   &kp PSCRN   &none   &to BASE    &to EXTRA   &to GAME    &none       &none
+                &kp F22  &kp F11    &kp F4     &kp F5      &kp F6   &none       &none   &skq LSHFT  &sk LCTRL   &sk LALT    &sk LGUI    &none
+                &kp F21  &kp F10    &kp F1     &kp F2      &kp F3   &none       &none   &none       &none       &none       &none       &none
                 &none    &none      &none      &none     &none                      &none    &none   &none
             >;
         };
@@ -250,9 +250,9 @@
             display-name = "game2";
             bindings = <
                 &kp F24  &kp F13  &kp F14   &kp F15  &kp F16 &kp N5     &kp N6    &kp N7     &kp N8       &kp N9     &kp N0          &kp DE_SZ
-                &kp F19  &kp F12  &kp F7    &kp F8   &kp F9  &kp T      &kp DE_Z  &kp U      &kp I        &kp O      &kp P           &kp DE_HASH
-                &kp F18  &kp F11  &kp F4    &kp F5   &kp F6  &kp G      &kp H     &kp J      &kp K        &kp L      &kp DE_O_UMLAUT &kp DE_A_UMLAUT
-                &kp F17  &kp F10  &kp F1    &kp F2   &kp F3  &kp B      &kp M     &kp N      &kp DE_COMMA &kp DE_DOT &kp DE_MINUS    &kp DE_SLASH
+                &kp F23  &kp F12  &kp F7    &kp F8   &kp F9  &kp T      &kp DE_Z  &kp U      &kp I        &kp O      &kp P           &kp DE_HASH
+                &kp F22  &kp F11  &kp F4    &kp F5   &kp F6  &kp G      &kp H     &kp J      &kp K        &kp L      &kp DE_O_UMLAUT &kp DE_A_UMLAUT
+                &kp F21  &kp F10  &kp F1    &kp F2   &kp F3  &kp B      &kp M     &kp N      &kp DE_COMMA &kp DE_DOT &kp DE_MINUS    &kp DE_SLASH
                 &trans  &trans  &trans  &trans  &trans                      &skq_mo SYMBOL LSHFT  &lt_bspc NUMBER 0  &lt FUN ENTER
             >;
         };
