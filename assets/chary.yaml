@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: chary}
 layers:
   base:
   - ˆ
@@ -12,7 +13,7 @@ layers:
   - '9'
   - '0'
   - ''
-  - ''
+  - '-'
   - X
   - M
   - L
@@ -23,7 +24,7 @@ layers:
   - O
   - U
   - Ä
-  - $$mdi:backspace-outline$$
+  - ''''
   - ß
   - {t: R, h: LGUI}
   - {t: S, h: LALT}
@@ -48,13 +49,13 @@ layers:
   - {t: Ü, h: RALT}
   - .
   - /
-  - ''
+  - F23
   - {t: LSHIFT, h: sticky}
   - {t: ESC, h: media}
   - {t: '$$mdi:keyboard-space$$', h: nav}
   - {t: TAB, h: mouse}
   - {t: LSHFT, h: symbol}
-  - {t: BSPC, h: number, s: '$$mdi:backspace-reverse-outline$$'}
+  - {t: BSPC, h: number}
   - {t: ⮐, h: fun}
   extra:
   - ESC
@@ -68,14 +69,14 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ''
+  - ß
   - TAB
   - Q
   - W
   - E
   - R
   - T
-  - Y
+  - DE Z
   - U
   - I
   - O
@@ -94,7 +95,7 @@ layers:
   - {t: Ö, h: LGUI}
   - Ä
   - LCTRL
-  - {t: DE Z, h: button}
+  - {t: DE Y, h: button}
   - {t: X, h: RALT}
   - C
   - V
@@ -104,17 +105,17 @@ layers:
   - ','
   - {t: ., h: RALT}
   - '-'
-  - ''
-  - ''
+  - /
+  - F23
   - {t: LSHIFT, h: sticky}
   - {t: ESC, h: media}
   - {t: '$$mdi:keyboard-space$$', h: nav}
   - {t: TAB, h: mouse}
   - {t: LSHFT, h: symbol}
-  - {t: BSPC, h: number, s: '$$mdi:backspace-reverse-outline$$'}
+  - {t: BSPC, h: number}
   - {t: ⮐, h: fun}
   game:
-  - '5'
+  - F4
   - ESC
   - '1'
   - '2'
@@ -125,48 +126,48 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ''
-  - T
+  - ß
+  - F3
   - TAB
   - Q
   - W
   - E
   - R
-  - Y
+  - DE Z
   - U
   - I
   - O
   - P
   - '#'
-  - G
+  - F2
   - LSHFT
   - A
   - S
   - D
   - F
   - H
-  - J
-  - K
-  - L
-  - Ö
+  - {t: J, h: RSHIFT}
+  - {t: K, h: LCTRL}
+  - {t: L, h: LALT}
+  - {t: Ö, h: LGUI}
   - Ä
-  - B
+  - F1
   - LCTRL
-  - DE Z
+  - DE Y
   - X
   - C
   - V
   - M
   - N
   - ','
-  - .
+  - {t: ., h: RALT}
   - '-'
-  - ''
-  - ''
-  - ''
+  - /
+  - F23
+  - number
   - LEFT ALT
   - $$mdi:keyboard-space$$
-  - fun
+  - game2
   - {t: LSHFT, h: symbol}
   - {t: BSPC, h: number, s: '$$mdi:backspace-reverse-outline$$'}
   - {t: ⮐, h: fun}
@@ -199,7 +200,7 @@ layers:
   - {t: LGUI, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LCTRL, h: sticky}
-  - {t: LSHIFT, h: sticky}
+  - {t: LSHFT, h: sticky}
   - ''
   - '&caps_word'
   - $$mdi:arrow-left$$
@@ -228,6 +229,7 @@ layers:
   - $$mdi:backspace-outline$$
   - ⮐
   mouse:
+  - F24
   - ''
   - ''
   - ''
@@ -239,8 +241,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - F23
   - ''
   - {t: game, h: '$$mdi:toggle-switch$$'}
   - {t: extra, h: '$$mdi:toggle-switch$$'}
@@ -252,11 +253,11 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - F22
   - {t: LGUI, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LCTRL, h: sticky}
-  - {t: LSHIFT, h: sticky}
+  - {t: LSHFT, h: sticky}
   - ''
   - ''
   - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-left$$', type: sym_by_sym}
@@ -264,7 +265,7 @@ layers:
   - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-up$$', type: sym_by_sym}
   - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-right$$', type: sym_by_sym}
   - ''
-  - ''
+  - F21
   - ''
   - ''
   - ''
@@ -313,7 +314,7 @@ layers:
   - {t: LGUI, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LCTRL, h: sticky}
-  - {t: LSHIFT, h: sticky}
+  - {t: LSHFT, h: sticky}
   - ''
   - ''
   - $$mdi:skip-backward$$
@@ -373,7 +374,7 @@ layers:
   - '6'
   - '='
   - ''
-  - {t: LSHIFT, h: sticky}
+  - {t: LSHFT, h: sticky}
   - {t: LCTRL, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LGUI, h: sticky}
@@ -399,6 +400,7 @@ layers:
   - {type: held}
   - ''
   fun:
+  - F24
   - ''
   - ''
   - ''
@@ -410,8 +412,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - F23
   - F12
   - F7
   - F8
@@ -423,19 +424,19 @@ layers:
   - {t: game, h: '$$mdi:toggle-switch$$'}
   - ''
   - ''
-  - ''
+  - F22
   - F11
   - F4
   - F5
   - F6
   - ''
   - ''
-  - {t: LSHIFT, h: sticky}
+  - {t: LSHFT, h: sticky}
   - {t: LCTRL, h: sticky}
   - {t: LALT, h: sticky}
   - {t: LGUI, h: sticky}
   - ''
-  - ''
+  - F21
   - F10
   - F1
   - F2
@@ -462,7 +463,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&studio_unlock'
   - ''
   - ''
   - ''
@@ -626,6 +627,83 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  game2:
+  - F24
+  - F13
+  - F14
+  - F15
+  - F16
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ß
+  - F23
+  - F12
+  - F7
+  - F8
+  - F9
+  - T
+  - DE Z
+  - U
+  - I
+  - O
+  - P
+  - '#'
+  - F22
+  - F11
+  - F4
+  - F5
+  - F6
+  - G
+  - H
+  - J
+  - K
+  - L
+  - Ö
+  - Ä
+  - F21
+  - F10
+  - F1
+  - F2
+  - F3
+  - B
+  - M
+  - N
+  - ','
+  - .
+  - '-'
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: LSHFT, h: symbol}
+  - {t: BSPC, h: number, s: '$$mdi:backspace-reverse-outline$$'}
+  - {t: ⮐, h: fun}
 combos:
 - p: [19, 22]
   k: '&bootloader'
+- p: [6, 7]
+  k: '&studio_unlock'
+- p: [13, 25]
+  k: '['
+- p: [14, 26]
+  k: (
+- p: [15, 27]
+  k: '{'
+- p: [16, 28]
+  k: DE LESS THAN
+- p: [17, 29]
+  k: DE GREATER THAN
+- p: [18, 30]
+  k: '}'
+- p: [19, 31]
+  k: )
+- p: [20, 32]
+  k: ']'
+- p: [43, 44]
+  k: $$mdi:backspace-reverse-outline$$
