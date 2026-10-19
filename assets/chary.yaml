@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: chary}
 layers:
   base:
-  - ˆ
+  - ^
   - '1'
   - '2'
   - '3'
@@ -38,12 +38,12 @@ layers:
   - {t: A, h: LGUI}
   - ','
   - {t: LSHFT, h: sticky}
-  - {t: DE Z, h: button}
+  - {t: Z, h: button}
   - {t: V, h: RALT}
   - W
   - D
   - J
-  - DE Y
+  - Y
   - K
   - Ö
   - {t: Ü, h: RALT}
@@ -76,7 +76,7 @@ layers:
   - E
   - R
   - T
-  - DE Z
+  - Z
   - U
   - I
   - O
@@ -95,7 +95,7 @@ layers:
   - {t: Ö, h: LGUI}
   - Ä
   - LCTRL
-  - {t: DE Y, h: button}
+  - {t: Y, h: button}
   - {t: X, h: RALT}
   - C
   - V
@@ -133,7 +133,7 @@ layers:
   - W
   - E
   - R
-  - DE Z
+  - Z
   - U
   - I
   - O
@@ -153,7 +153,7 @@ layers:
   - Ä
   - F1
   - LCTRL
-  - DE Y
+  - Y
   - X
   - C
   - V
@@ -272,19 +272,19 @@ layers:
   - ''
   - ''
   - ''
-  - '&msc SCRL_LEFT'
+  - $$mdi:mouse-move-left$$
   - $$mdi:mouse-move-down$$
   - $$mdi:mouse-move-up$$
-  - '&msc SCRL_RIGHT'
+  - $$mdi:mouse-move-right$$
   - ''
   - ''
   - ''
   - ''
   - ''
   - {type: held}
-  - $$mdi:mouse-right-click
-  - $$mdi:mouse-left-click
-  - $$mdi:mouse-scroll-wheel
+  - $$mdi:mouse-right-click$$
+  - $$mdi:mouse-left-click$$
+  - $$mdi:mouse-scroll-wheel$$
   media:
   - ''
   - ''
@@ -470,7 +470,7 @@ layers:
   - ''
   - ''
   - ''
-  - ˆ
+  - ^
   - '>'
   - '%'
   - <
@@ -545,9 +545,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:mouse-left-click
-  - $$mdi:mouse-scroll-wheel
-  - $$mdi:mouse-right-click
+  - $$mdi:mouse-left-click$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click$$
   - snipe
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -557,9 +557,9 @@ layers:
   - Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:mouse-left-click
-  - $$mdi:mouse-scroll-wheel
-  - $$mdi:mouse-right-click
+  - $$mdi:mouse-left-click$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click$$
   - snipe
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -646,7 +646,7 @@ layers:
   - F8
   - F9
   - T
-  - DE Z
+  - Z
   - U
   - I
   - O
@@ -696,9 +696,9 @@ combos:
 - p: [15, 27]
   k: '{'
 - p: [16, 28]
-  k: DE LESS THAN
+  k: <
 - p: [17, 29]
-  k: DE GREATER THAN
+  k: '>'
 - p: [18, 30]
   k: '}'
 - p: [19, 31]
