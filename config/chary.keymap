@@ -216,7 +216,7 @@
         symbol_layer {
             display-name = "symbol";
             bindings = <
-                &none    &none          &none           &none             &none        &none            &none         &none        &none         &none        &none         &none
+                &none    &none          &none           &none             &none        &none            &studio_unlock &none        &none         &none        &none         &none
                 &none    &kp DE_CARET   &kp DE_GT       &kp DE_PERCENT    &kp DE_LT    &kp DE_QUESTION  &kp DE_TILDE  &kp DE_LBKT  &kp DE_DLLR   &kp DE_RBKT  &kp DE_BSLH   &none
                 &none    &kp DE_PLUS    &kp DE_RPAR     &kp DE_EQUAL      &kp DE_LPAR  &kp DE_HASH      &kp DE_AT     &kp DE_LBRC  &kp DE_DQT    &kp DE_RBRC  &kp DE_PIPE   &none
                 &none    &kp DE_MINUS   &kp DE_ASTRK    &kp DE_COLON      &kp DE_PLUS  &kp DE_EXCL      &kp DE_SQT    &kp DE_AMPS  &kp DE_GRAVE  &kp DE_DOT   &kp DE_SLASH  &none

@@ -8,6 +8,7 @@ exposes: [i2c_oled]
 features:
   - keys
   - pointer
+  - studio
 siblings:
   - chary_left
   - chary_right

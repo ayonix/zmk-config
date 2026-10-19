@@ -2,12 +2,7 @@
 # https://github.com/caksoylar/keymap-drawer#setting-up-an-automated-drawing-workflow
 name: Draw ZMK keymaps
 on:
-  workflow_dispatch: # can be triggered manually
-  push: # automatically run on changes to following paths
-    paths:
-      - "config/*.keymap"
-      - "config/*.dtsi"
-      - "keymap_drawer.config.yaml"
+  workflow_dispatch: # run manually to avoid generated draw commits on every keymap push
 
 jobs:
   draw:

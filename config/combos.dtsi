@@ -15,6 +15,7 @@ combos {
   compatible = "zmk,combos";
 
   COMBO(bootloader, &bootloader, 19 22, COMBO_TERM_SLOW)
+  COMBO(studio_unlock, &studio_unlock, 6 7, COMBO_TERM_SLOW)
 
   COMBO(lbkt, &kp DE_LBKT, 1 13, COMBO_TERM_NORMAL)
   COMBO(lpar, &kp DE_LPAR, 2 14, COMBO_TERM_NORMAL)
