@@ -20,6 +20,8 @@ parse_config:
     DE_A_UMLAUT: "Ä"
     DE_O_UMLAUT: "Ö"
     DE_U_UMLAUT: "Ü"
+    DE_Z: "Z"
+    DE_Y: "Y"
     DE_COMMA: ","
     COMMA: ","
     DE_DOT: "."
@@ -27,9 +29,11 @@ parse_config:
     DE_MINUS: "-"
     KP_MINUS: "-"
     DE_HASH: "#"
-    DE_CARET: "ˆ"
+    DE_CARET: "^"
     DE_GT: ">"
     DE_LT: "<"
+    DE_GREATER_THAN: ">"
+    DE_LESS_THAN: "<"
     DE_PERCENT: "%"
     DE_PRCNT: "%"
     DE_QUESTION: "?"
@@ -128,9 +132,11 @@ parse_config:
       tap: $$mdi:bluetooth$$
       shifted: $$mdi:skip-next$$
       type: sym_sub_text
-    "&mkp LCLK": "$$mdi:mouse-left-click"
-    "&mkp RCLK": "$$mdi:mouse-right-click"
-    "&mkp MCLK": "$$mdi:mouse-scroll-wheel"
+    "&mkp LCLK": "$$mdi:mouse-left-click$$"
+    "&mkp RCLK": "$$mdi:mouse-right-click$$"
+    "&mkp MCLK": "$$mdi:mouse-scroll-wheel$$"
+    "&msc SCRL_LEFT": "$$mdi:mouse-move-left$$"
+    "&msc SCRL_RIGHT": "$$mdi:mouse-move-right$$"
     "&msc SCRL_UP": "$$mdi:mouse-move-up$$"
     "&msc SCRL_DOWN": "$$mdi:mouse-move-down$$"
     "&mmv MOVE_LEFT":
