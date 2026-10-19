@@ -129,7 +129,7 @@
             display-name = "base";
             bindings = <
                 &kp DE_CARET    &kp N1           &kp N2          &kp N3          &kp N4            &kp N5      &kp N6    &kp N7            &kp N8           &kp N9                  &kp N0           &none
-                &none           &kp X            &kp M           &kp L           &kp C             &kp P       &kp Q     &kp F             &kp O            &kp U                   &kp DE_A_UMLAUT  &kp DE_SQT
+                &kp DE_MINUS    &kp X            &kp M           &kp L           &kp C             &kp P       &kp Q     &kp F             &kp O            &kp U                   &kp DE_A_UMLAUT  &kp DE_SQT
                 &kp DE_SZ       &hrml LGUI R     &hrml LALT S    &hrml LCTRL N   &hrml_s LSHIFT T  &kp G       &kp B     &hrmr_s RSHIFT H  &hrmr LCTRL E    &hrmr LALT I            &hrmr LGUI A     &kp COMMA
                 &skq LSHFT      &lt BUTTON DE_Z  &hrml RALT V    &kp W           &kp D             &kp J       &kp DE_Y  &kp K             &kp DE_O_UMLAUT  &hrmr RALT DE_U_UMLAUT  &kp DOT          &kp DE_SLASH
                     &kp F23     &skq LSHIFT  &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB                                      &skq_mo SYMBOL LSHFT  &lt NUMBER BSPC  &lt FUN ENTER
